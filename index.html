@@ -9,27 +9,30 @@
 </head>
 
 <body>
-    <h1>Conversor de medidas</h1>
+    <div id="card">
+        <h1>Conversor de medidas</h1>
 
-    <div id="qtd">
-        <label for="qtd-metros">Insira a quantidade em metros:</label>
-        <input type="number" id="qtd-metros">
+        <div id="qtd">
+            <label for="qtd-metros">Insira a quantidade em metros:</label>
+            <input type="number" id="qtd-metros">
+        </div>
+
+        <div id="und">
+            <select name="unidade-converter" id="unidades">
+                <option value="pes" id="pes">Pés</option>
+                <option value="jardas" id="jardas">Jardas</option>
+                <option value="polegadas" id="polegadas">Polegadas</option>
+                <option value="milhas" id="milhas">Milhas</option>
+            </select>
+            <div id="empty"></div>
+            <button id="converter">Converter</button>
+        </div>
+
+        <div id="res">
+
+        </div>
     </div>
 
-    <div id="und">
-        <select name="unidade-converter" id="unidades">
-            <option value="pes" id="pes">Pés</option>
-            <option value="jardas" id="jardas">Jardas</option>
-            <option value="polegadas" id="polegadas">Polegadas</option>
-            <option value="milhas" id="milhas">Milhas</option>
-        </select>
-        <div id="empty"></div>
-        <button id="converter">Converter</button>
-    </div>
-
-    <div id="res">
-
-    </div>
 
     <script src="script.js"></script>
 </body>
