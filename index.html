@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 08</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Conversor de medidas</h1>
+
+    <div id="qtd">
+        <label for="qtd-metros">Insira a quantidade em metros:</label>
+        <input type="number" id="qtd-metros">
+    </div>
+
+    <div id="und">
+        <select name="unidade-converter" id="unidades">
+            <option value="pes" id="pes">Pés</option>
+            <option value="jardas" id="jardas">Jardas</option>
+            <option value="polegadas" id="polegadas">Polegadas</option>
+            <option value="milhas" id="milhas">Milhas</option>
+        </select>
+        <div id="empty"></div>
+        <button id="converter">Converter</button>
+    </div>
+
+    <div id="res">
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

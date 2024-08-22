@@ -1,0 +1,46 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+input, button, select {
+    background: none;
+	color: inherit;
+	border: 1px solid black;
+    border-radius: 12px;
+	padding: 0.5rem;
+	cursor: pointer;
+	outline: inherit;
+}
+
+#qtd {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+
+#und {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+}
+
+#empty {
+    width: 2.3rem;
+}
+
+#res {
+    display: flex;
+    font-family: sans-serif;
+    background-color: #ddd;
+    padding: 0.5rem 1.4rem 0.5rem 1.4rem;
+    border-radius: 24px;
+}
